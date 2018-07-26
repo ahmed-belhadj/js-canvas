@@ -13,6 +13,7 @@ context.strokeStyle = "#bada55";
 context.lineJoin = "round";
 context.lineCap = "round";
 context.lineWidth = 100;
+context.globalCompositeOperation = "color";
 
 function draw(event) {
   if (!isDrawing) return;
